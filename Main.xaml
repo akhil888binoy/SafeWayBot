@@ -369,7 +369,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Gmail]" BodyType="Text" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,380" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Helpline Numbers - SafeWayBot" To="888innovations888@gmail.com" UseDocumentAsBody="False">
+                    <umab:SendMailX Bcc="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Gmail]" Body="&#xD;&#xA;Here are the helpline numbers - SafeWayBot&#xD;&#xA;New York City Police Department - 6th Precinct : +1 212-741-4811&#xD;&#xA;New York City Police Department - 9th Precinct : +1 212-477-7811&#xD;&#xA;NYPD Transit District 4 : +1 212-253-7511&#xD;&#xA;New York City Police Department - 10th Precinct :  +1 212-741-8211&#xD;&#xA;New York Police Department - 1st Precinct :  +1 212-334-0611&#xD;&#xA;NYU Public Safety :  +1 212-998-2222&#xD;&#xA;" BodyType="Text" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,380" sap2010:WorkflowViewState.IdRef="SendMailX_1" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="Helpline Numbers - SafeWayBot" To="888innovations888@gmail.com" UseDocumentAsBody="False">
                       <umab:SendMailX.Files>
                         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                       </umab:SendMailX.Files>
