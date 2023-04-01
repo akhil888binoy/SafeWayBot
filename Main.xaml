@@ -321,7 +321,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="388,137" sap2010:WorkflowViewState.IdRef="NClick_10" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V3" />
-                    <ui:LogMessage Message="{x:Null}" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[CurrentElement]" />
                   </Sequence>
                 </ActivityAction>
               </uix:NForEachUiElement.Body>
