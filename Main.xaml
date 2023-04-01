@@ -350,7 +350,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="514,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Crime Rate &#xD;&#xA;via Bleecker St = 73%&#xD;&#xA;via  West 4th Street = 57%&#xD;&#xA;via W Houston St = 66%&#xD;&#xA;&#xD;&#xA;I conclude that route via West 4th Street is SAFE&#xD;&#xA;Kindly check your email for helpline numbers on the way&quot;]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="514,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Crime Rate &#xD;&#xA;via Bleecker St = 73%&#xD;&#xA;via  West 4th Street = 57%&#xD;&#xA;via W Houston St = 66%&#xD;&#xA;&#xD;&#xA;I conclude that route via West 4th Street is SAFE&#xD;&#xA;Kindly check your email for helpline numbers in this region&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
